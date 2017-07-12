@@ -30,7 +30,7 @@ You win
 
 ## Installation
 
-Compile with `gcc count.c create_random_tiles.c farnarkle_io.c play_farnarkle.c -o mastermind` to play the game
+Compile with `gcc count.c create_random_tiles.c farnarkle_io.c play_farnarkle.c -o mastermind` to play the game  
 Compile with `gcc count.c create_random_tiles.c farnarkle_io.c farnarkle_player.c player_test.c -o mastermind_bot -lm` to use the bot to play the game.
 
 farnarkle.h contains several definitions which can be modified
