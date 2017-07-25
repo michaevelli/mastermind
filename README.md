@@ -7,26 +7,26 @@ UNSW COMP1511 17s1 lab05
 
 ## Usage
 To play the game
-```bash
-$ gcc count.c create_random_tiles.c farnarkle_io.c play_farnarkle.c -o mastermind
-$ ./mastermind
-Enter guess for turn 1: 1 2 3 4
+<pre>
+$ <b>gcc count.c create_random_tiles.c farnarkle_io.c play_farnarkle.c -o mastermind</b>
+$ <b>./mastermind</b>
+Enter guess for turn 1: <b>1 2 3 4</b>
 0 farnarkles 1 arkles
-Enter guess for turn 2: 4 5 6 7
+Enter guess for turn 2: <b>4 5 6 7</b>
 4 farnarkles 0 arkles
 You win
-```
+</pre>
 To use the bot
-```bash
-$ gcc count.c create_random_tiles.c farnarkle_io.c farnarkle_player.c player_test.c -o mastermind_bot -lm
-$ ./mastermind_bot
+<pre>
+$ <b>gcc count.c create_random_tiles.c farnarkle_io.c farnarkle_player.c player_test.c -o mastermind_bot -lm</b>
+$ <b>./mastermind_bot</b>
 1 2 3 4
 Guess for turn 1: 1 1 8 8
 1 farnarkle 0 arkles
 Guess for turn 2: 1 2 3 4
 4 Farnarkles 0 arkles
 You win
-```
+</pre>
 
 ## Installation
 
